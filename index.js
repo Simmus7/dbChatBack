@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors());
-const port =  process.env.PORT || 3000;
+const port = 3000;
 
  
 //Conexión con la base de datos
